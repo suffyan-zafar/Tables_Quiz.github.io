@@ -1,0 +1,395 @@
+html{
+    background: radial-gradient(circle, #fff,#ccc);
+    height: 100vh;
+}
+#main-box{
+    background-color:lightblue;
+    height: 590px;
+    width: 800px;
+    margin: 100px auto;
+}
+#score{
+    background-color:yellow;
+    height: 30px;
+    width: 100px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    position: relative;
+    left: 670px;
+    top: 20px;
+}
+#correct{
+    background-color:green;
+    height: 30px;
+    width: 100px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    position: relative;
+    left: 350px;
+    top: -30px;
+    display: none;
+}
+#wrong{
+    background-color:red;
+    height: 30px;
+    width: 100px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    position: relative;
+    left: 150px;
+    top: -25px;
+    display: none;
+}
+#question{
+        background-color: orchid;
+        height: 150px;
+        width: 600px;
+        position: relative;
+        left: 100px;
+        top: -30px;
+}
+#question #QA{
+        text-align: center;
+        color: black;
+        font-size: 80px;
+        padding-top: 30px;
+}
+#statemenet{
+    margin-top: 10px;
+    background-color: darkmagenta;
+    height: 35px;
+    width: 600px;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+
+    position: relative;
+    left: 100px;
+    top: -20px;
+}
+#main-box #box-1{
+    background-color: white;
+    height: 90px;
+    width:  100px;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-left: 100px;
+    position: relative;
+    top: -100px;
+}
+#main-box #box-2{
+    background-color: white;
+    height: 90px;
+    width:  100px;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-left: 260px;
+    position: relative;
+    top: -200px;
+}
+#main-box #box-3{
+    background-color: white;
+    height: 90px;
+    width:  100px;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-left: 420px;
+    position: relative;
+    top: -300px;
+}
+#main-box #box-4{
+    background-color: white;
+    height: 90px;
+    width:  100px;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-left: 580px;
+    position: relative;
+    top: -400px;
+}
+.box{
+    background-color: white;
+    height: 90px;
+    width:  100px;
+    border-radius: 10px;
+    float: left;
+    margin: 30px;
+    position: relative;
+    top: -30px;
+    left: 80px;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 25px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.box #opt{
+    font-size: 70px;
+    font-weight: 700;
+}
+.box:hover{
+    background-color: brown;
+    color: white;
+}
+#button{
+    background-color:yellow;
+    height: 30px;
+    width: 100px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    position: relative;
+    left: 280px;
+    margin-top: 140px;
+z-index: 0;
+cursor: pointer;
+    
+ 
+}
+#start_btton{
+    position: relative;
+    margin-top: -15px;
+}
+
+#timer{
+    background-color:gray;
+    height: 30px;
+    width: 250px;
+    padding: 10px;
+    border-radius: 10px;
+    position: relative;
+    left: 480px;
+    top: -46px;
+    display: none;
+}
+#tim{
+    position: relative;
+    left: 35px;
+    top: -15px;
+    font-size: 20px;
+    
+}
+#timingvalue{
+    position: relative;
+    font-weight: 800;
+  
+}
+#gameover{
+    background: linear-gradient(#F3CA6B,#F3706C);
+    height: 200px;
+    width: 500px;
+    position: absolute;
+    left: 550px;
+    top: 250px;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 800;
+    display: none;
+}
+@media only screen and (max-width:820px){
+    #score{
+        position: relative;
+        left: 0px;
+    }
+}
+@media only screen and (max-width:820px){
+    #wrong{
+        position: relative;
+        left: 620px;
+        top:-32px;
+    }
+}
+@media only screen and (max-width:820px){
+    #gameover{
+        position: relative;
+        left: 156px;
+        top:-410px;
+    }
+}
+@media only screen and (max-width:400px){
+    #question{
+        height: 120px;
+        width: 400px;
+        position: relative;
+        left: 0px;
+     
+    }
+}
+@media only screen and (max-width:400px){
+    #statemenet{
+        height: 30px;
+        width: 400px;
+        position: relative;
+        left: 0px; 
+    }
+}
+@media only screen and (max-width:400px){
+    #button{
+        position: relative;
+        left: 0px; 
+        height: 20px;
+        width: 100px;
+    }
+}
+@media only screen and (max-width:400px){
+    #timer{
+        position: relative;
+        left: 140px; 
+        top: -40px;
+        height: 20px;
+        width: 225px;
+    }
+}
+@media only screen and (max-width:400px){
+    #tim{
+        position: relative;
+       top: -23px;
+       left: -1px;
+    }
+}
+
+@media only screen and (max-width:400px){
+    #start_btton{
+        position: relative;
+        top:17px
+    }
+}
+
+@media only screen and (max-width:400px){
+    #gameover{
+        position: relative;
+        top: -350px;
+        left: 0px;
+        height: 200px;
+        width: 405px;
+    }
+}
+@media only screen and (max-width:400px){
+    #main-box{
+     
+        height: 500px;
+       
+    }
+}
+@media only screen and (max-width:400px){
+    #correct{
+        position: relative;
+        left: 250px;
+    }
+}
+@media only screen and (max-width:400px){
+    #wrong{
+        position: relative;
+        left: 250px;
+
+    }
+}
+
+@media only screen and (max-width:400px){
+    .box{
+        position: relative;
+        left: 0px;
+        height: 60px;
+        width: 40px;
+
+
+    }
+}
+
+/* yahaa sy agy   */
+
+
+
+@media only screen and (max-width:555px){
+    #question{
+        height: 170px;
+        width: 600px;
+        position: relative;
+        left: 0px;
+     
+    }
+}
+@media only screen and (max-width:555px){
+    #statemenet{
+        height: 30px;
+        width: 600px;
+        position: relative;
+        left: 0px; 
+    }
+}
+@media only screen and (max-width:555px){
+    #button{
+        position: relative;
+        left: 30px; 
+        top: -40px;
+        height: 20px;
+        width: 100px;
+    }
+}
+@media only screen and (max-width:555px){
+    #timer{
+        position: relative;
+        left: 310px; 
+        top: -80px;
+        height: 20px;
+        width: 225px;
+    }
+}
+@media only screen and (max-width:555px){
+    #tim{
+        position: relative;
+       top: -23px;
+       left: -1px;
+    }
+}
+
+@media only screen and (max-width:555px){
+    #start_btton{
+        position: relative;
+        top:17px
+    }
+}
+
+@media only screen and (max-width:555px){
+    #gameover{
+        position: relative;
+        top: -400px;
+        left: 0px;
+        height: 200px;
+        width: 600px;
+    }
+}
+@media only screen and (max-width:555px){
+    #main-box{
+     
+        height: 550px;
+       
+    }
+}
+@media only screen and (max-width:555px){
+    #correct{
+        position: relative;
+        left: 250px;
+    }
+}
+@media only screen and (max-width:555px){
+    #wrong{
+        position: relative;
+        left: 450px;
+
+    }
+}
+
+@media only screen and (max-width:555px){
+    .box{
+        position: relative;
+        left: 0px;
+        height: 60px;
+        width: 80px;
+
+
+    }
+}
